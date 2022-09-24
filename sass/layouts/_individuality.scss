@@ -1,0 +1,36 @@
+.feature__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.feature__items {
+    width: 270px;
+}
+
+.feature__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-txt-cl);
+}
+
+.feature__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: var(--btn-bg-color);
+}
